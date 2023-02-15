@@ -73,7 +73,7 @@ locals {
   }
 }
 
-module "ec2" {
+module "ec1" {
   source = "./modules/EC2"
 
   name = local.name
